@@ -1,6 +1,7 @@
 .main {
     font-family: $font;
     
+    
 }
 
 .section1 {
@@ -9,6 +10,8 @@
     background-image: url(../images/cover.jpeg);
     background-size: cover;
 }
+
+
 
 
 
@@ -21,6 +24,7 @@
     gap: 3rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    width: 100%;
     
     
 }
