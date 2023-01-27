@@ -1,9 +1,23 @@
 @import './core/variables';
 
-.header_link {
-    background: $color1;
-}
-.menu {
+.header {
     
-    color: white;
+    position: fixed;
+    z-index: 3;
+}
+.header_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;  
+    height: 2rem;
+    background: $color1;
+    
+}
+.header_link{
+    
+    width: 0.08rem;
+    height: 0.2rem;
+    color: $color1;
 }

@@ -1,0 +1,42 @@
+.main {
+    font-family: $font;
+    
+}
+
+.section1 {
+    width: 32rem;
+    height: 52rem;
+    background-image: url(../images/cover.jpeg);
+    background-size: cover;
+}
+
+
+
+.section3 {
+    background-color: $color2;
+    display: grid;
+    grid-template-rows: 5span;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+    
+}
+
+.article_section3_title1{
+   
+    margin-top: 2.9rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.empezar_ahora {
+
+    border-radius: 20%;
+    background-color: $color1;
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
