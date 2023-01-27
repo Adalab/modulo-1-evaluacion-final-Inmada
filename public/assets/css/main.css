@@ -172,13 +172,25 @@ table {
   color: #f26002; }
 
 .main {
-  font-family: "Roboto Slab", serif; }
+  font-family: "Roboto Slab", serif;
+  overflow-x: hidden; }
 
 .section1 {
   width: 32rem;
   height: 52rem;
   background-image: url(../images/cover.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover; }
+
+hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center; }
+
+.title1 {
+  font-size: 2rem; }
 
 .section3 {
   background-color: #979797;
@@ -188,8 +200,7 @@ table {
   align-items: center;
   gap: 3rem;
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  width: 100%; }
+  padding-right: 1.5rem; }
 
 .article_section3_title1 {
   margin-top: 2.9rem;
@@ -202,6 +213,9 @@ table {
   text-align: center;
   color: white;
   padding-bottom: 1rem; }
+
+* {
+  overflow-x: hidden; }
 
 html {
   font-size: 62.5%; }

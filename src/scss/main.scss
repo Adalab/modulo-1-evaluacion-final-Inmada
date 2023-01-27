@@ -5,6 +5,10 @@
 @import './layout/header';
 @import './layout/main';
 
+*{
+   overflow-x: hidden;
+}
+
 html {
     font-size: 62.5%;
     
