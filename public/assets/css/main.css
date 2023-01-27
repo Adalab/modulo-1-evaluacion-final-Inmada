@@ -5,6 +5,28 @@
   margin: 0;
   padding: 0; }
 
+.footer {
+  background-color: #4a4a4a;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; }
+
+.button {
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2.2rem; }
+
+.box1 {
+  order: 4;
+  font-size: 1.4rem; }
+
+.nav_footer {
+  text-decoration: none; }
+
 /* fuentes */
 /* colors */
 .header_link {
