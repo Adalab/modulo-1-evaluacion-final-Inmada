@@ -9,26 +9,70 @@
     width: 32rem;
     height: 52rem;
     background-image: url(../images/cover.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
    
 }
 
-hero {
+.section2 {
     display: flex;
     flex-direction: column;
-     justify-content: end;
+    justify-content: left;
     align-items: center;
+    gap: 2rem;
+}
+
+.p1 {
+    color: $color1;
+    font-size: 1.4rem;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
 }
 .title1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    align-items: center;
+    padding-left: 2rem;
 }
 
 
 
+.section2_title {
+    font-size: 2.4rem;
+    justify-content: left;
 
 
+}
+
+.p2 {
+    color: $color3;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;}
+
+.comprar {
+    border-radius: 20%;
+    border: solid 0.2rem $color1;
+    width: 6rem;
+    height: 1.8rem;
+    text-align: center;
+    list-style-type: none;
+
+}
 
 .section3 {
     background-color: $color2;
