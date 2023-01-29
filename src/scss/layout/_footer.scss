@@ -1,4 +1,5 @@
 .footer {
+    
     background-color: $color3;
     font-family: $font;
     display: flex;
@@ -35,7 +36,8 @@ position: relative;
     
 }
 
- .box_link{
+ .box2,
+ .box3 {
     font-size: 1.6rem;
     
 }
@@ -49,3 +51,40 @@ position: relative;
     color: white;
 }
 
+@media (min-width: 768px) {
+    
+
+    .footer{
+        
+        flex-direction: row;
+        align-items:flex-start;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        position: relative;
+
+    }
+
+    .box1{
+
+        order: 1;
+        padding-right: 4rem;
+        color: white;
+    }
+
+    .button {
+        order: 3;
+        position: absolute;
+
+    }
+
+    .box2 {
+        order: 2;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .box3 {
+        order: 4;
+    }
+
+}

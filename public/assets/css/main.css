@@ -159,13 +159,35 @@ table {
   order: 4;
   font-size: 1.4rem; }
 
-.box_link {
+.box2,
+.box3 {
   font-size: 1.6rem; }
 
 .footer_link {
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
   color: white; }
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    position: relative; }
+  .box1 {
+    order: 1;
+    padding-right: 4rem;
+    color: white; }
+  .button {
+    order: 3;
+    position: absolute; }
+  .box2 {
+    order: 2;
+    padding-left: 15%;
+    padding-right: 15%; }
+  .box3 {
+    order: 4; } }
 
 /* fuentes */
 /* colors */
@@ -192,7 +214,7 @@ table {
   overflow-x: hidden; }
 
 .section1 {
-  width: 32rem;
+  width: 100%;
   height: 52rem;
   background-image: url(../images/cover.jpeg);
   display: flex;
@@ -237,8 +259,6 @@ table {
   padding-left: 1rem; }
 
 .section2 {
-  width: 100vw;
-  height: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -289,6 +309,7 @@ table {
 .section3 {
   background-color: #f2f2f2;
   display: grid;
+  grid-template-columns: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -299,8 +320,6 @@ table {
   font-family: RobotoSlab-bold; }
 
 .section3_title1 {
-  /*     grid-area: title;
- */
   margin-top: 2.9rem;
   font-size: 2.5rem;
   font-weight: bold; }
@@ -332,6 +351,21 @@ table {
   position: absolute;
   left: 10%;
   bottom: 25%; }
+
+@media (min-width: 768px) {
+  .title1 {
+    font-size: 6rem; }
+  .hero_p {
+    font-size: 2rem; }
+  .section3 {
+    display: grid;
+    grid-template-areas: "one" "two" "three"; }
+  .section3_title1 {
+    grid-area: one; }
+  .article {
+    grid-area: two; }
+  .empezar_ahora {
+    grid-area: three; } }
 
 html {
   font-size: 62.5%; }
