@@ -357,15 +357,43 @@ table {
     font-size: 6rem; }
   .hero_p {
     font-size: 2rem; }
+  /* 
+.section3 {
+    display: grid;
+    grid-template-areas: "one" "two" "three";
+    
+
+    
+}
+
+.section3_title1 {
+    grid-area: one;
+}
+
+.article{
+    grid-area: two;
+
+
+}
+
+.empezar_ahora {
+    grid-area: three;
+}*/
   .section3 {
     display: grid;
-    grid-template-areas: "one" "two" "three"; }
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10rem 10rem 10rem; }
   .section3_title1 {
-    grid-area: one; }
+    grid-column-start: 1;
+    grid-column-end: 5; }
   .article {
-    grid-area: two; }
+    padding-left: 2rem;
+    padding-right: 2rem; }
   .empezar_ahora {
-    grid-area: three; } }
+    grid-column-start: 2; }
+  /* .empezar_ahora {
+    grid-column-start: ;
+} */ }
 
 html {
   font-size: 62.5%; }

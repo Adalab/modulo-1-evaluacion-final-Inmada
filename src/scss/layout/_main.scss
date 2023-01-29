@@ -198,7 +198,7 @@ bottom: 25%;
 .hero_p {
     font-size: 2rem;
 }
-
+/* 
 .section3 {
     display: grid;
     grid-template-areas: "one" "two" "three";
@@ -219,6 +219,33 @@ bottom: 25%;
 
 .empezar_ahora {
     grid-area: three;
+}*/
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10rem 10rem 10rem;
+    
+    
 }
 
+.section3_title1 {
+grid-column-start: 1;
+grid-column-end: 5;
 }
+
+.article {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.empezar_ahora {
+
+    grid-column-start: 2;
+}
+
+/* .empezar_ahora {
+    grid-column-start: ;
+} */
+} 
