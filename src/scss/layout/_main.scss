@@ -73,7 +73,6 @@
     gap: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    
     margin-top:  3rem;
     margin-bottom: 3rem;
     }
@@ -160,7 +159,7 @@
 }
 
 .section3_p {
-    font-family: Roboto Roboto-regular;
+    font-family: Roboto-regular;
     font-size: 1.8rem;
 }
 
@@ -254,3 +253,41 @@ font-size: 4rem;
 }
 
 } 
+
+
+@media (min-width: 1274px){
+
+.section1 {
+    height: 80rem;
+    
+}
+
+.title1 {
+    font-size: 10rem;
+    text-shadow: 0.3rem 0.3rem $color3;
+}
+
+.hero_div {
+    width: 5rem;
+    height: 5rem;
+}
+
+.button_down {
+    top: 35%;
+    left: 30%;
+}
+
+.section2 {
+
+    padding-left: 20%;
+    padding-bottom: 5rem;
+
+}
+
+.empezar_ahora {
+
+    transform: translate(70%);
+}
+
+}
+    
