@@ -217,14 +217,13 @@ table {
   width: 100%;
   height: 52rem;
   background-image: url(../images/cover.jpeg);
+  background-attachment: scroll;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
   text-align: center;
-  gap: 3rem;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
+  gap: 3rem; }
 
 .hero {
   display: flex;

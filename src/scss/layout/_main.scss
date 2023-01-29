@@ -9,14 +9,14 @@
     width: 100%;
     height: 52rem;
     background-image: url(../images/cover.jpeg);
+    background-attachment: scroll;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
     text-align: center;
     gap: 3rem;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
    
 }
 
@@ -266,6 +266,7 @@ font-size: 4rem;
     font-size: 10rem;
     text-shadow: 0.3rem 0.3rem $color3;
 }
+
 
 .hero_div {
     width: 5rem;
