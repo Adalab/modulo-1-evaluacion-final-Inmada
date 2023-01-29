@@ -182,46 +182,66 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  align-items: center;
+  text-align: center;
   gap: 3rem;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-
-.section2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: center;
-  gap: 2rem; }
-
-.p1 {
-  color: #f26002;
-  font-size: 1.4rem; }
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  color: white; }
+  color: white;
+  padding-bottom: 3rem; }
+
+.hero_p {
+  padding: 2rem;
+  font-size: 1.6rem; }
+
+.hero_div {
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+  width: 3.3rem;
+  height: 3.3rem;
+  position: relative; }
+
+.button_down {
+  position: absolute;
+  top: 25%;
+  left: 25%; }
 
 .title1 {
   font-size: 3rem;
   font-weight: bold;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   align-items: center;
-  padding-left: 2rem; }
+  padding-left: 1rem; }
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem; }
+
+.p1 {
+  color: #f26002;
+  font-size: 1.4rem; }
 
 .section2_title {
   font-size: 2.4rem;
-  justify-content: left; }
+  justify-content: left;
+  font-weight: bold; }
 
 .p2 {
   color: #4a4a4a;
-  font-size: 1.8rem;
-  padding-left: 2rem;
-  padding-right: 2rem; }
+  font-size: 1.8rem; }
 
 .comprar {
   border-radius: 20%;
@@ -229,7 +249,13 @@ table {
   width: 6rem;
   height: 1.8rem;
   text-align: center;
-  list-style-type: none; }
+  list-style-type: none;
+  -webkit-text-decoration-style: none;
+  text-decoration-style: none; }
+
+.section2_button {
+  -webkit-text-decoration-style: none;
+  text-decoration-style: none; }
 
 .section3 {
   background-color: #979797;
