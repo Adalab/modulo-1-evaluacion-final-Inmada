@@ -66,27 +66,36 @@
 
 .section2 {
 
+    width: 100vw;
+    height: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     text-align: left;
     gap: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 3rem;
-}
+    
+    margin-top:  3rem;
+    margin-bottom: 3rem;
+    }
+    
+
 
 .p1 {
     color: $color1;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-family: Roboto-regular;
+    
 }
 
 
 
 .section2_title {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     justify-content: left;
     font-weight: bold;
+    font-family: RobotoSlab Bold;
 
 
 }
@@ -94,22 +103,34 @@
 .p2 {
     color: $color3;
     font-size: 1.8rem;
+    font-family: Roboto regular;
+    line-height: 3rem;
     }
 
 .comprar {
-    border-radius: 20%;
+    border-radius: 40%;
     border: solid 0.2rem $color1;
-    width: 6rem;
-    height: 1.8rem;
+    width: 10rem;
+    height: 4rem;
     text-align: center;
-    list-style-type: none;
-    text-decoration-style: none;
-
+    position: relative;
+    box-shadow: 0.5rem $color1;    
 }
+    
 
 .section2_button {
-    text-decoration-style:none;
+    font-size: 1.8rem;
+    font-family:Roboto medium;
+    position:absolute;
+    top: 25%;
+    left: 13%;
+    text-decoration-line: none;
+    color: $color1;
+    font-weight: bold;
+    
 }
+
+
 
 
 
