@@ -136,20 +136,36 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem; }
+  text-align: center;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  line-height: 3rem; }
 
 .button {
   background-color: white;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 2.2rem; }
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2.2rem;
+  transform: translateY(-4.5rem);
+  position: relative; }
+
+.button_link {
+  position: absolute;
+  top: 15%;
+  right: 1rem; }
 
 .box1 {
   order: 4;
   font-size: 1.4rem; }
 
-.nav_footer {
-  text-decoration: none; }
+.box_link {
+  font-size: 1.6rem; }
+
+.footer_link {
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  color: white; }
 
 /* fuentes */
 /* colors */
@@ -279,7 +295,7 @@ table {
   gap: 3rem;
   padding-left: 4rem;
   padding-right: 4rem;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
   font-family: RobotoSlab-bold; }
 
 .section3_title1 {
