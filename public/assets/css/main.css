@@ -163,11 +163,36 @@ table {
 .box3 {
   font-size: 1.6rem; }
 
-.footer_link {
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
-  color: white; }
+/* 
 
+.footer_link {
+    text-decoration-line: none;
+    color: white;
+}
+
+
+.footer :hover{
+
+.animation{
+    background-color: $color1;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    aspect-ratio: 1 / 1;
+    animation: 4s linear 0s infinite alternate animating-multiple-properties;
+} 
+
+from {
+     transform: translateY(110vh);
+     background-color: red;
+     filter: brightness(75%);
+ }
+
+ to {
+     transform: translateY(0);
+     background-color: grey;}
+         }
+ */
 @media (min-width: 768px) {
   .footer {
     flex-direction: row;
@@ -292,7 +317,12 @@ table {
   height: 4rem;
   text-align: center;
   position: relative;
-  box-shadow: 0.5rem #f26002; }
+  box-shadow: 0.5rem #f26002;
+  transform: translate(5%);
+  transition: translate 2s 1s; }
+
+.comprar :hover {
+  translate: 100%; }
 
 .section2_button {
   font-size: 1.8rem;
@@ -338,7 +368,11 @@ table {
   background-color: #f26002;
   width: 15rem;
   height: 4rem;
-  position: relative; }
+  position: relative;
+  transition: background-color 3s 2s; }
+
+.empezar_ahora :hover {
+  background-color: black; }
 
 .section3_button {
   -webkit-text-decoration-line: none;

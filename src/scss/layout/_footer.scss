@@ -22,6 +22,7 @@ border-radius: 2.2rem;
 transform: translateY(-4.5rem);
 position: relative;
 
+
 }
 
 .button_link {
@@ -44,13 +45,36 @@ position: relative;
 
 
 
-
+/* 
 
 .footer_link {
     text-decoration-line: none;
     color: white;
 }
 
+
+.footer :hover{
+
+.animation{
+    background-color: $color1;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    aspect-ratio: 1 / 1;
+    animation: 4s linear 0s infinite alternate animating-multiple-properties;
+} 
+
+from {
+     transform: translateY(110vh);
+     background-color: red;
+     filter: brightness(75%);
+ }
+
+ to {
+     transform: translateY(0);
+     background-color: grey;}
+         }
+ */
 @media (min-width: 768px) {
     
 
