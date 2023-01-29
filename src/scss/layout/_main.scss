@@ -165,7 +165,7 @@
 }
 
 .empezar_ahora {
-    /* grid-area: four; */
+   
     transform: translate(25%);
     border-radius: 20%;
     background-color: $color1;
@@ -198,28 +198,27 @@ bottom: 25%;
 .hero_p {
     font-size: 2rem;
 }
-/* 
-.section3 {
-    display: grid;
-    grid-template-areas: "one" "two" "three";
-    
 
-    
+.p1 {
+    font-size: 1.8rem;
 }
 
-.section3_title1 {
-    grid-area: one;
+.section2_title {
+    font-size: 3rem;
 }
 
-.article{
-    grid-area: two;
-
-
+.p2 {
+    font-size: 2rem;
 }
 
-.empezar_ahora {
-    grid-area: three;
-}*/
+.comprar {
+    width: 12rem;
+    height: 5rem;
+}
+
+.section2_button {
+    font-size: 2rem;
+}
 
 .section3 {
     display: grid;
@@ -232,12 +231,21 @@ bottom: 25%;
 .section3_title1 {
 grid-column-start: 1;
 grid-column-end: 5;
+font-size: 4rem;
 }
 
 .article {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     
+}
+
+.section3_title2 {
+    font-size: 2.5rem;
+}
+
+.section3_p {
+    font-size: 2rem;
 }
 
 .empezar_ahora {
@@ -245,7 +253,4 @@ grid-column-end: 5;
     grid-column-start: 2;
 }
 
-/* .empezar_ahora {
-    grid-column-start: ;
-} */
 } 
