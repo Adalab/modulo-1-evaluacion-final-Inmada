@@ -34,4 +34,6 @@ El mayor problema fue darle color al corazón que inserté, pero Yanelis me expl
 
 La animación, no tenía ni idea cómo hacerla así que busqué ejemplos en internet y, fui probando muchas características para ver cual me gustaba más y no me destrozaba otros elementos.
 
+Además, todos los commits los he añadido con el asunto en inglés, como se solicitaba.
+
 En general, estoy agradecida por la experiencia y me ha demostrado que soy muy capaz de maquetar, además de que me encanta. Es como un rompecabezas que no quieres dejar hasta acabarlo. Hace pocas semanas no sabía ni que era hacer scroll. Estoy muy agradecida también a nuestros profesores que nos asisten siempre y, con mucha alegría y paciencia, sin ellos no sería posible.
