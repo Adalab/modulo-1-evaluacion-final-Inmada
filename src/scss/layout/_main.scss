@@ -1,6 +1,7 @@
 .main {
     font-family: $font;
     overflow-x: hidden;
+    position: relative;
     
     
 }
@@ -144,6 +145,7 @@
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     text-align: center;
     gap: 3rem;
@@ -173,13 +175,14 @@
 
 .empezar_ahora {
    
-    transform: translate(25%);
+    /* transform: translate(20%); */
     border-radius: 20%;
     background-color: $color1;
     width: 15rem;
     height: 4rem;
     position: relative;
     transition: background-color 3s 2s;
+    
     
 }
 
@@ -299,9 +302,10 @@ font-size: 4rem;
 }
 
 .empezar_ahora {
-
-    transform: translate(70%);
+    
+    transform: translateX(2rem);
+    position: absolute;
+    bottom: 5%;
 }
-
 }
     

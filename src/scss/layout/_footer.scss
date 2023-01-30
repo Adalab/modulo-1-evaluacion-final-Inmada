@@ -93,10 +93,11 @@ from {
     .footer{
         
         flex-direction: row;
-        align-items:flex-start;
+        align-items: center;
         padding-left: 1rem;
         padding-right: 2rem;
         position: relative;
+        
 
     }
 
@@ -110,6 +111,8 @@ from {
     .button {
         order: 3;
         position: absolute;
+        top: 12%;
+        left: 50%
 
     }
 
