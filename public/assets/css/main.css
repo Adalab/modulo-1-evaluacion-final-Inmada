@@ -157,20 +157,22 @@ table {
 
 .box1 {
   order: 4;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: white; }
 
 .box2,
 .box3 {
   font-size: 1.6rem; }
 
-/* 
-
 .footer_link {
-    text-decoration-line: none;
-    color: white;
-}
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  color: white; }
 
+.heart {
+  color: #f26002; }
 
+/*
 .footer :hover{
 
 .animation{
