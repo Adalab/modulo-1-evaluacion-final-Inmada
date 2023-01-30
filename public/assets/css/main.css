@@ -172,29 +172,25 @@ table {
 .heart {
   color: #f26002; }
 
-/*
-.footer :hover{
+.animation {
+  background-color: #f26002;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  animation: linear 0s infinite alternate animating-multiple-properties;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-name: slidein; }
 
-.animation{
-    background-color: $color1;
-    border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    aspect-ratio: 1 / 1;
-    animation: 4s linear 0s infinite alternate animating-multiple-properties;
-} 
+@keyframes slidein {
+  from {
+    transform: translateX(20rem);
+    background-color: red;
+    filter: brightness(75%); }
+  to {
+    transform: translateY(10rem);
+    background-color: orange; } }
 
-from {
-     transform: translateY(110vh);
-     background-color: red;
-     filter: brightness(75%);
- }
-
- to {
-     transform: translateY(0);
-     background-color: grey;}
-         }
- */
 @media (min-width: 768px) {
   .footer {
     flex-direction: row;

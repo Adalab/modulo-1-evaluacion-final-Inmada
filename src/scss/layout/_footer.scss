@@ -11,7 +11,6 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     line-height: 3rem;
-    
 }
 
 .button {
@@ -23,12 +22,14 @@ transform: translateY(-4.5rem);
 position: relative;
 
 
+
 }
 
 .button_link {
     position: absolute;
     top: 15%;
     right: 1rem;
+    
 }
 
 .box1 {
@@ -57,29 +58,37 @@ position: relative;
     color: $color1;
 }
 
-/*
-.footer :hover{
+
 
 .animation{
     background-color: $color1;
     border-radius: 50%;
     width: 1.5rem;
     height: 1.5rem;
-    aspect-ratio: 1 / 1;
-    animation: 4s linear 0s infinite alternate animating-multiple-properties;
+    animation: linear 0s infinite alternate animating-multiple-properties; 
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: slidein;
 } 
 
+@keyframes slidein {
+    
+
 from {
-     transform: translateY(110vh);
+     transform: translateX(20rem);
      background-color: red;
      filter: brightness(75%);
  }
 
  to {
-     transform: translateY(0);
-     background-color: grey;}
-         }
- */
+     transform: translateY(10rem);
+     background-color: orange;}
+
+    }
+ 
+
+
+
 @media (min-width: 768px) {
     
 
