@@ -1,124 +1,37 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# Modulo 1. Evaluación.
 
-# Adalab web starter kit
+Este proyecto me ha resultado todo un reto y, me ha motivado mucho poder realizarlo en tiempo y con todas y cada una de las peticiones, incluido el bonus.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+En primer lugar, a nivel personal, creo que ha contribuido mucho la forma de organizarme, empezar despacio, descansar y dedicar un poco de tiempo a hacer un repaso general de lo aprendido para tener las ideas claras antes de empezar.
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Comencé el viernes por la mañana y, dediqué unas 9horas en total. El sábado decidí desconectar, descansar y dedicar tiempo a mi familia para sentirme con las pilas puestas. El domingo dediqué otras 7horas. El lunes ya sólo me quedaba agregar color al corazoncito del footer, que tras numerosos intentos, lo dejé para pedir soporte, añadir una animación y el readme.
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+Nada más empezar, cometí el fallo de no guardar correctamente la rama del header y, lo perdí una vez acabado. Por suerte, eso me hizo replantearme cómo lo había organizado y, aunque en un inicio metí ahí el hero, en mi segundo intento decidí que era una sección del main y fue todo un acierto a la hora de darle estilo.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+Usé ramas para header y main, en html e hice merge. La verdad, es que me suponía un inconveniente más que una ventaja al estar trabajando sola, así que sólo lo puse para mostrar que sé usar las ramas.
 
-## Guía de inicio rápido
+El sass no me dió ningún problema y, lo tuve desde el principio. Creé pocos partials porque trabajo sola, pero me fue útil para estructurarme mentalmente a la hora de hacer cada una de las partes. Header, main y footer, fue mi división del trabajo. Aunque los fuí haciendo por partes, cuando encontraba alguna dificultad, pasaba a otra cosa para no ir retrasándome y, a veces fruto de hacer una cosa, descubría otra que me venía bien para lo que dejé atrás.
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
+Requisitos que se pedían:
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+La hamburguesa queda visible todo el tiempo y, es un enlace a Adalab que se abre a otra página. Usé z-index, position, displey flex y variables.
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+El main está dividivo en tres secciones:
 
-```bash
-npm install
-```
+La primera es el hero, empleé el display flex, como se solicitaba y para solucionar el problema de que la imagen del hero desaparecía al hacer scroll, añadí background-attachment: scroll, antes probé otros que no funcionaron.
+Con el botón, no tuve ningún problema. Usé position: absolute y le dí porcentajes para moverlo y, position:relative a su contenedor padre. Si lo presionas te envía a la sección 3, que es la última del main.
 
-### Pasos para arrancar el proyecto:
+La segunda, como era de libre elección la hice con flex que me parecía más sencillo.
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+Si presionas el botón te abre en otra página la web de Adalab. Todos los botones tienen title y alt, en este caso, si dejas el cursor encima te explicará a donde te lleva si haces click. Además, añadí el bonus usando una transition, que hace que se mueva la palabra comprar fuera de su contenedor.
 
-```bash
-npm start
-```
+La tercera sección está maquetada con grid. En la versión mobile, me resultó muy fácil. En la versión tablet tuve que hacer muchas pruebas e intenté maquetarla con areas y rows, pero finalmente lo conseguí, haciendo una especie de tabla y diciéndole a cada uno el lugar que debían ocupar. En la versión desktop no tuve que cambiar nada de este aspecto, salvo la posición del botón "empezar ahora" para lo que usé transform: translate y %.
+Tal como se pedía en el bonus, le añadí al botón "empezar ahora" una transition que consiste en darle color negro al fondo. También, te abre la página de Adalab en otra página y contiene title y alt.
 
-Este comando:
+Por último, en el footer, lo dividí en cinco contenedores, uno de ellos para el botón, tres para el texto y uno más, para la animación.
+El botón te lleva a sección de arriba. Lo desplacé con position y tranform.
+El mayor problema fue darle color al corazón que inserté, pero Yanelis me explicó cómo hacerlo creando un span con su clase y fue de lo más sencillo.
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+La animación, no tenía ni idea cómo hacerla así que busqué ejemplos en internet y, fui probando muchas características para ver cual me gustaba más y no me destrozaba otros elementos.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run docs
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+En general, estoy agradecida por la experiencia y me ha demostrado que soy muy capaz de maquetar, además de que me encanta. Es como un rompecabezas que no quieres dejar hasta acabarlo. Hace pocas semanas no sabía ni que era hacer scroll. Estoy muy agradecida también a nuestros profesores que nos asisten siempre y, con mucha alegría y paciencia, sin ellos no sería posible.
