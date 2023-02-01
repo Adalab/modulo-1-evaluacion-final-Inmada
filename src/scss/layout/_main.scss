@@ -24,6 +24,7 @@
 
 .hero {
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -118,7 +119,7 @@
 }
 
 .comprar :hover {
-    translate: 100%;
+    translate: 150%;
 }
 
 

@@ -167,7 +167,8 @@ table {
 .footer_link {
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
-  color: white; }
+  color: white;
+  text-transform: uppercase; }
 
 .heart {
   color: #f26002; }
@@ -253,6 +254,7 @@ table {
 
 .hero {
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: end;
   align-items: center;
@@ -323,7 +325,7 @@ table {
   transition: translate 2s 1s; }
 
 .comprar :hover {
-  translate: 100%; }
+  translate: 150%; }
 
 .section2_button {
   font-size: 1.8rem;
