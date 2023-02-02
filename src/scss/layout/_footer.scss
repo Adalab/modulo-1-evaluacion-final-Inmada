@@ -11,41 +11,43 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     line-height: 3rem;
+
+
 }
+
+
 
 .button {
-background-color: white;
-width: 4rem;
-height: 4rem;
-border-radius: 2.2rem;
-transform: translateY(-4.5rem);
-position: relative;
-
-
-
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2.2rem;
+    transform: translateY(-4.5rem);
+    position: relative;
 }
+
 
 .button_link {
     position: absolute;
     top: 15%;
     right: 1rem;
-    
+
 }
+
+
 
 .box1 {
     order: 4;
     font-size: 1.4rem;
     color: white;
-    
+
 }
 
- .box2,
- .box3 {
+.box2,
+.box3 {
     font-size: 1.6rem;
-    
+
 }
-
-
 
 .footer_link {
     text-decoration-line: none;
@@ -56,8 +58,6 @@ position: relative;
 .heart {
     color: $color1;
 }
-
-
 
 .animation{
     background-color: $color1;

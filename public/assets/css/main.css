@@ -251,39 +251,34 @@ table {
   justify-content: end;
   text-align: center;
   gap: 3rem; }
-
-.hero {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-  color: white;
-  padding-bottom: 3rem; }
-
-.hero_p {
-  padding: 2rem;
-  font-size: 1.6rem; }
-
-.hero_div {
-  background-color: white;
-  border-radius: 50%;
-  align-items: center;
-  width: 3.3rem;
-  height: 3.3rem;
-  position: relative; }
-
-.button_down {
-  position: absolute;
-  top: 25%;
-  left: 25%; }
-
-.title1 {
-  font-size: 3rem;
-  font-weight: bold;
-  padding-bottom: 1rem;
-  align-items: center;
-  padding-left: 1rem; }
+  .section1 .hero {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    padding-bottom: 3rem; }
+  .section1 .hero_p {
+    padding: 2rem;
+    font-size: 1.6rem; }
+  .section1 .hero_div {
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    width: 3.3rem;
+    height: 3.3rem;
+    position: relative; }
+  .section1 .button_down {
+    position: absolute;
+    top: 25%;
+    left: 25%; }
+  .section1 .title1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    align-items: center;
+    padding-left: 1rem; }
 
 .section2 {
   display: flex;
