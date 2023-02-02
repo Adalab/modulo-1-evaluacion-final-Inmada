@@ -107,10 +107,10 @@
     }
 
 .comprar {
-    border-radius: 40%;
+    border-radius: 80%;
     border: solid 0.2rem $color1;
-    width: 10rem;
-    height: 4rem;
+    width: 11rem;
+    height: 4.5rem;
     text-align: center;
     position: relative;
     box-shadow: 0.5rem $color1; 
@@ -177,10 +177,10 @@
 .empezar_ahora {
    
     /* transform: translate(20%); */
-    border-radius: 20%;
+    border-radius: 80%;
     background-color: $color1;
-    width: 15rem;
-    height: 4rem;
+    width: 14.5rem;
+    height: 4.5rem;
     position: relative;
     transition: background-color 3s 2s;
     
@@ -199,7 +199,7 @@ font-family: Roboto-Medium;
 font-size: 2rem;
 position: absolute;
 left: 10%;
-bottom: 25%;
+bottom: 24%;
 
 }
 

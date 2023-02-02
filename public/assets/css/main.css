@@ -314,10 +314,10 @@ table {
   line-height: 3rem; }
 
 .comprar {
-  border-radius: 40%;
+  border-radius: 80%;
   border: solid 0.2rem #f26002;
-  width: 10rem;
-  height: 4rem;
+  width: 11rem;
+  height: 4.5rem;
   text-align: center;
   position: relative;
   box-shadow: 0.5rem #f26002;
@@ -368,10 +368,10 @@ table {
 
 .empezar_ahora {
   /* transform: translate(20%); */
-  border-radius: 20%;
+  border-radius: 80%;
   background-color: #f26002;
-  width: 15rem;
-  height: 4rem;
+  width: 14.5rem;
+  height: 4.5rem;
   position: relative;
   transition: background-color 3s 2s; }
 
@@ -386,7 +386,7 @@ table {
   font-size: 2rem;
   position: absolute;
   left: 10%;
-  bottom: 25%; }
+  bottom: 24%; }
 
 @media (min-width: 768px) {
   .title1 {
